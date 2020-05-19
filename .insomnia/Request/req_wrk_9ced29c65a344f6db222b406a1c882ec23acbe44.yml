@@ -1,0 +1,43 @@
+_id: req_wrk_9ced29c65a344f6db222b406a1c882ec23acbe44
+authentication: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "category": {
+        "id": 0,
+        "name": "string"
+      },
+      "name": "doggie",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "string"
+    }
+created: 1589896101663
+description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+isPrivate: false
+metaSortKey: -1589896101663
+method: POST
+modified: 1589896101663
+name: Add a new pet to the store
+parameters: []
+parentId: fld_wrk_9ced29c65a344f6db222b406a1c882ec1b034c38
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/pet"

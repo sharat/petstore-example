@@ -1,0 +1,22 @@
+_id: req_wrk_9ced29c65a344f6db222b406a1c882eca4608701
+authentication: {}
+body:
+  mimeType: application/x-www-form-urlencoded
+created: 1589896101650
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1589896101650
+method: POST
+modified: 1589896101650
+name: Updates a pet in the store with form data
+parameters: []
+parentId: fld_wrk_9ced29c65a344f6db222b406a1c882ec1b034c38
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/pet/{{ petId }}"

@@ -1,0 +1,37 @@
+_id: req_wrk_9ced29c65a344f6db222b406a1c882ece94a615f
+authentication: {}
+body:
+  mimeType: application/json
+  text: |-
+    [
+      {
+        "id": 0,
+        "username": "string",
+        "firstName": "string",
+        "lastName": "string",
+        "email": "string",
+        "password": "string",
+        "phone": "string",
+        "userStatus": 0
+      }
+    ]
+created: 1589896101641
+description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+isPrivate: false
+metaSortKey: -1589896101641
+method: POST
+modified: 1589896101641
+name: Creates list of users with given input array
+parameters: []
+parentId: fld_wrk_9ced29c65a344f6db222b406a1c882ec12dea96f
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/user/createWithList"
